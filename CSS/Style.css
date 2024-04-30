@@ -183,3 +183,12 @@ tr td{
   padding-left: 35px;
   display: flex;
 }
+
+
+.carrusel-fondo{
+    background-color:rgba(0, 151, 19, 0.2);
+    margin-left: 500px;
+    margin-right: 500px;
+    border: #2c3e50;
+   
+}
