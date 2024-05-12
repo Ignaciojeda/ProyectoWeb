@@ -18,6 +18,7 @@ body {
   .carousel-background {
     background-color: transparent; /* Cambia el color de fondo del carrusel a transparente */
 }
+
 .background-image {
     width:100%;
     height:100%;
@@ -27,7 +28,6 @@ body {
     max-width: 600px;
     margin: 0 auto;
 }
-
 .ColorCh1{
     color: #2c3e50;
 }
@@ -58,8 +58,11 @@ header {
     text-align: center;
 }
 .headerI{
+    display: flex;
     background-color:#35af64;
-    
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
   }
 .HeaderC{
     background-color: #228b22;
@@ -112,13 +115,14 @@ a{
 }
 .CuadroTexto {
     background-color: #fefae0;
-    width: 1200px;
+    width: 80%;
     border: 15px solid #228b22;
     padding: 5px;
-    margin: 20px auto; 
+    margin: 40px auto;
 }
 
 .container2 {
+    padding: 15px;
     background-color: #a7c957;
     display: flex;
     flex-direction: column;
@@ -184,12 +188,27 @@ tr td{
   padding-left: 35px;
   display: flex;
 }
-
-
-.carrusel-fondo{
-    background-color:rgba(0, 151, 19, 0.2);
-    margin-left: 500px;
-    margin-right: 500px;
-    border: #2c3e50;
-   
+@media (max-width: 576px) {
+    .card {
+        width: calc(100% - 20px);
+        margin: 0 auto 20px auto;
+    }
+}
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+}
+@media (min-width: 576px) {
+    .main {
+        flex-direction: row; 
+    }
+    .card {
+        width: calc(30% - 20px); 
+        margin: 0 10px 20px 10px; 
+    }
 }
