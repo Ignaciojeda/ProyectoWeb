@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puyehue</title>
    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-</head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 <body >
     <header>
@@ -34,16 +33,6 @@
                             <li class="nav-item">
                               <a class="nav-link" href="Contacto.html">Contactenos</a>
                             </li>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Idioma
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#"><img src="../IMG/Español.png"></a></li>
-                                  <li><a class="dropdown-item" href="#"><img src="../IMG/Ingles.png"></a></li>
-                                  
-                                </ul>
-                              </div>
                           </ul>
                         </div>
                       </div>
@@ -108,37 +97,62 @@
         </section>
         <section>
             <div class="CuadroTexto">
-                <h1 style="color: black;"> Descripción</h1>
-                <h3>Día 1: Llegada a Puerto Montt y traslado al Parque Nacional Puyehue</h3>
-                <ul>
-                    <li>Los esperaremos en el furgon que se ubicara a escasos metros del terminal de buses</li>
-                    <li>Alojamiento en confortable cabaña o lodge dentro del parque.</li>
-                    <li>Cena de bienvenida en restaurante local.</li>
-                </ul>
-                <h3>Día 2: Senderismo al Lago Puyehue y Termas de Aguas Calientes</h3>
-                <ul>
-                    <li>Desayuno temprano en el lodge.</li>
-                    <li>Excursión guiada a traves de todas las maravillas del parque nacional</li>
-                    <li>Almuerzo en picnic junto al lago.</li>
-                    <li>Relajación en las Termas de Aguas Calientes.</li>
-                    <li>Cena y alojamiento en el lodge.</li>
-                </ul>
-                <h3>Día 3: Ascenso al Volcán Osorno (opcional)</h3>
-                <ul>
-                    <li>Desayuno temprano en el lodge.</li>
-                    <li>Opcional: Ascenso al Volcán Osorno.</li>
-                    <li>Alternativa: Caminata por el sendero Alerce Andino o visita al Centro de Interpretación Ambiental.</li>
-                    <li>Almuerzo en box lunch.</li>
-                    <li>Regreso al lodge por la tarde.</li>
-                    <li>Cena de despedida y alojamiento en el lodge.</li>
-                </ul>
-                <h3>Día 4: Despedida y traslado a Puerto Montt</h3>
-                <ul>
-                    <li>Desayuno en el lodge.</li>
-                    <li>Traslado de regreso a Puerto Montt.</li>
-                    <li>Tiempo libre para compras o actividades turísticas en la ciudad.</li>
-                    <li>Fin de nuestros servicios.</li>
-                </ul>
+                <h1 style="color: black;"> Itinerario</h1>
+                <table class="table" cellspacing="10" width="100%">
+                    <thead class="table-dark" width="50%">
+                      <tr >
+                        <th>Día</th>
+                        <th>Descripción</th>
+                        <th>Actividades</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-primary">
+                          <td>1</td>
+                          <td>Llegada a Puerto Montt y traslado al parque</td>
+                          <td><ul>
+                            <li>Los esperaremos en el furgon que se ubicara a escasos metros del terminal de buses</li>
+                            <li>Alojamiento en confortable cabaña o lodge dentro del parque.</li>
+                            <li>Cena de bienvenida en restaurante local.</li>
+                        </ul></td>
+                        </tr>  
+                        <tr class="table-success">
+                            <td>2</td>
+                          <td>Senderismo al Lago Puyehue y Termas de Aguas Calientes</td>
+                          <td><ul>
+                            <li>Desayuno temprano en el lodge.</li>
+                            <li>Excursión guiada a traves de todas las maravillas del parque nacional</li>
+                            <li>Almuerzo en picnic junto al lago.</li>
+                            <li>Relajación en las Termas de Aguas Calientes.</li>
+                            <li>Cena y alojamiento en el lodge.</li>
+                        </ul></td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>3</td>
+                            <td>Ascenso al Volcán Osorno (opcional)</td>
+                            <td><ul>
+                                <li>Desayuno temprano en el lodge.</li>
+                                <li>Opcional: Ascenso al Volcán Osorno.</li>
+                                <li>Alternativa: Caminata por el sendero Alerce Andino o visita al Centro de Interpretación Ambiental.</li>
+                                <li>Almuerzo en box lunch.</li>
+                                <li>Regreso al lodge por la tarde.</li>
+                                <li>Cena de despedida y alojamiento en el lodge.</li>
+                          </ul></td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>4</td>
+                            <td>Despedida y traslado a Puerto Montt</td>
+                            <td><ul>
+                                <li>Desayuno en el lodge.</li>
+                                <li>Traslado de regreso a Puerto Montt.</li>
+                                <li>Tiempo libre para compras o actividades turísticas en la ciudad.</li>
+                                <li>Fin de nuestros servicios.</li>
+                          </ul></td>
+
+                        </tr>
+                        
+                    </tbody>
+                </table>   
                 <h2>Incluye</h2>
                 <ul>
                     <li>Traslados desde y hacia el aeropuerto de Puerto Montt.</li>
@@ -169,6 +183,10 @@
                     <li>Contaminar el agua o el suelo.</li>
                     <li>Ingresar con vehículos motorizados a zonas no permitidas.</li>
                 </p>
+                <div>
+                    <h3>¡Recuerda!</h3>
+                    <p style="text-align: center;">Tu comportamiento responsable ayudará a proteger este valioso patrimonio natural para las generaciones futuras.</p>
+                    </div>
 
             </div>
         </section>
