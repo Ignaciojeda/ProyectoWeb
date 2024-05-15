@@ -1,18 +1,104 @@
-html{
-    height: 100%;
+body {
+    background-color:#2f873c;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
-
-body{
+.Contacto{
     background-image: url(../IMG/parque.jpg);
     font-size: 14px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
+  .carousel-inner > .carousel-item   > img {
+    width:640px;
+    height:640px;
+  }
+  .carousel-background {
+    background-color: transparent; /* Cambia el color de fondo del carrusel a transparente */
+}
 
-header{
+.background-image {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+#carouselExampleControls {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.ColorCh1{
+    color: #2c3e50;
+}
+h1{
+    text-align: center;
+    color: #f2e8cf;
+}
+h2{
+    text-align: center;
+    color: rgb(1, 4, 2);
+    margin-top: auto;
+}
+.Puyehue {
+    color: #f56403fe;
+}
+.Pumalin {
+    color: #bc4749;
+}
+h3{
+    text-align: center;
+    color: rgb(7, 13, 10);
+    margin-top: auto;
+}
+header {
+    background-color: #386641;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.headerI{
+    display: flex;
+    background-color:#35af64;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+  }
+.HeaderC{
     background-color: #228b22;
     text-align: center;
+}
+footer {
+    background-color: #6a994e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+button{
+    width: 100px;
+    border: none;
+    outline: none;
+}
+#carouselExampleControls {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+article {
+    text-align: center; 
+    margin: 20px auto; 
+} 
+html{
+    height: 100%;
 }
 
 nav{
@@ -27,7 +113,22 @@ a{
     width: 80%;
     margin: 40px auto;
 }
+.CuadroTexto {
+    background-color: #fefae0;
+    width: 80%;
+    border: 15px solid #228b22;
+    padding: 5px;
+    margin: 40px auto;
+}
 
+.container2 {
+    padding: 15px;
+    background-color: #a7c957;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+ }
 .menu-contacto{
     background: green;
     display: flex;
@@ -67,12 +168,6 @@ input{
     padding-bottom: 5px;
 }
 
-button{
-    width: 100px;
-    border: none;
-    outline: none;
-}
-
 textarea{
     width: 100%;
     border: 2px solid;
@@ -88,11 +183,34 @@ tr td:first-child{
 tr td{
     padding-top: 25px;
 }
-footer {
-    background-color: #34495e;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-top: auto;
-    width: 100%;
+
+ .main {
+  padding-left: 35px;
+  display: flex;
 }
+@media (max-width: 576px) {
+    .card {
+        width: calc(100% - 20px);
+        margin: 0 auto 20px auto;
+    }
+}
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+}
+@media (min-width: 576px) {
+    .main {
+        flex-direction: row; 
+    }
+    .card {
+        width: calc(30% - 20px); 
+        margin: 0 10px 20px 10px; 
+    }
+}
+
+
