@@ -1,4 +1,4 @@
-function validar(){
+function validacion(){
     
     var error=[];
     var confirmacion=0
