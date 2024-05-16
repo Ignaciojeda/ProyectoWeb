@@ -332,3 +332,177 @@ function InglesPuyehue(){
 
 
 }
+
+
+function InglesVicente(){
+    var VicenteT = document.getElementById('VicenteT')
+    var VicenteDesc= document.getElementById('VicenteDesc')
+    var VicenteSub= document.getElementById('VicenteSub')
+    var VicenteSub2= document.getElementById('VicenteSub2')
+    var VicenteIti= document.getElementById('VicenteIti')
+    var Dia= document.getElementById('Dia')
+    var Descripcion=document.getElementById('Descripcion')
+    var Actividades= document.getElementById('Actividades')
+
+    VicenteT.innerText="Vicente Pérez Rosales National Park"
+    VicenteDesc.innerText='Do you want to come see one of the most spectacular parks in the south? If so, the Vicente Pérez Rosales National Park is an option to take into account. Most companies only offer to go tour the falls of the Petrohue River, which, although it is one of the most famous points of the park, this is not all that this wonderful place offers, as there are places such as: the "Los Enamorados" trail, the "Laguna Verde", the "Cascada de los Novios", "Los Pileyos ", among several other places.'
+    VicenteSub.innerText="Are you interested?"
+    VicenteSub2.innerText="Take advantage of this unique opportunity to visit the Vicente Pérez Rosales National Park! Book your adventure now."
+    VicenteIti.innerText="Schedule"
+    Dia.innerText="Day"
+    Descripcion.innerText="Description"
+    Actividades.innerText="Activities"
+
+    var VicenteD1D = document.getElementById('VicenteD1D')
+    var VicenteD1A1 = document.getElementById('VicenteD1A1')
+    var VicenteD1A2 = document.getElementById('VicenteD1A2')
+    var VicenteD1A3 = document.getElementById('VicenteD1A3')
+
+    VicenteD1D.innerText="Arrival in Puerto Montt and transfer to the park"
+    VicenteD1A1.innerText="Reception and transfer from the Puerto Montt airport or your hotel in the city to the Pumalín Douglas Tompkins National Park."
+    VicenteD1A2.innerText="Accommodation in a comfortable cabin or lodge within the park."
+    VicenteD1A3.innerText="Welcome dinner at a local restaurant."
+
+    var VicenteD2D = document.getElementById('VicenteD2D')
+    var VicenteD2A1 = document.getElementById('VicenteD2A1')
+    var VicenteD2A2 = document.getElementById('VicenteD2A2')
+    var VicenteD2A3 = document.getElementById('VicenteD2A3')
+    var VicenteD2A4 = document.getElementById('VicenteD2A4')
+    var VicenteD2A5 = document.getElementById('VicenteD2A5')
+    var VicenteD2A6 = document.getElementById('VicenteD2A6')
+
+    VicenteD2D.innerText="Exploring Todos los Santos Lake and Petrohué Falls"
+    VicenteD2A1.innerText="Breakfast at the lodge."
+    VicenteD2A2.innerText="Navigation through Lake Todos los Santos, a body of water surrounded by mountains and ancient forests."
+    VicenteD2A3.innerText="Visit to the Petrohué Falls, a series of imposing waterfalls."
+    VicenteD2A4.innerText="Picnic lunch by the lake."
+    VicenteD2A5.innerText="In the afternoon, walk along the Los Alerces trail, a centuries-old larch forest."
+    VicenteD2A6.innerText="Dinner and accommodation at the lodge."
+
+    var VicenteD3D = document.getElementById('VicenteD3D')
+    var VicenteD3A1 = document.getElementById('VicenteD3A1')
+    var VicenteD3A2 = document.getElementById('VicenteD3A2')
+    var VicenteD3A3 = document.getElementById('VicenteD3A3')
+    var VicenteD3A4 = document.getElementById('VicenteD3A4')
+    var VicenteD3A5 = document.getElementById('VicenteD3A5')
+
+    VicenteD3D.innerText="Trekking to Frio Lake and Cayutue Hot Springs"
+    VicenteD3A1.innerText="Breakfast at the lodge."
+    VicenteD3A2.innerText="Trekking excursion to Lago Frío, a glacial lake with crystal clear waters."
+    VicenteD3A3.innerText="Lunch in lunch box."
+    VicenteD3A4.innerText="In the afternoon, relax at the Cayutue Hot Springs."
+    VicenteD3A5.innerText="Dinner and accommodation at the lodge."
+
+    var VicenteD4D = document.getElementById('VicenteD4D')
+    var VicenteD4A1 = document.getElementById('VicenteD4A1')
+    var VicenteD4A2 = document.getElementById('VicenteD4A2')
+    var VicenteD4A3 = document.getElementById('VicenteD4A3')
+    var VicenteD4A4 = document.getElementById('VicenteD4A4')
+
+
+    VicenteD4D.innerText="Farewell and transfer to Puerto Montt"
+    VicenteD4A1.innerText="Breakfast at the lodge."
+    VicenteD4A2.innerText="Return trip to Puerto Montt."
+    VicenteD4A3.innerText="Free time for shopping or tourist activities in the city."
+    VicenteD4A4.innerText="End of our services."
+
+
+    var Incluye = document.getElementById('Incluye')
+    var Incluye1 = document.getElementById('Incluye1')
+    var Incluye2 = document.getElementById('Incluye2')
+    var Incluye3 = document.getElementById('Incluye3')
+    var Incluye4 = document.getElementById('Incluye4')
+    var Incluye5 = document.getElementById('Incluye5')
+
+    Incluye.innerText="Include"
+    Incluye1.innerText="Transfers to and from Puerto Montt airport."
+    Incluye2.innerText="Accommodation for 3 nights in a cabin or lodge."
+    Incluye3.innerText="Complete meals (breakfast, lunch and dinner)."
+    Incluye4.innerText="Guided excursions to Lake Todos los Santos, Saltos del Petrohué, Lago Frío and Termas de Cayutue."
+    Incluye5.innerText="Travel assistance insurance."
+
+
+    var NoIncluye= document.getElementById('NoIncluye')
+    var NoIncluye1= document.getElementById('NoIncluye1')
+    var NoIncluye2= document.getElementById('NoIncluye2')
+    var NoIncluye3= document.getElementById('NoIncluye3')
+
+    NoIncluye.innerText="Not include"
+    NoIncluye1.innerText="Airfare."
+    NoIncluye2.innerText="Alcoholic beverages."
+    NoIncluye3.innerText="Tips"
+
+    var Llevar = document.getElementById('Llevar')
+    var LlevarSub = document.getElementById('LlevarSub')
+    var Llevar1 = document.getElementById('Llevar1')
+    var Llevar2 = document.getElementById('Llevar2')
+    var Llevar3 = document.getElementById('Llevar3')
+    var Llevar4 = document.getElementById('Llevar4')
+    var Llevar5 = document.getElementById('Llevar5')
+    var Llevar6 = document.getElementById('Llevar6')
+    var Llevar7 = document.getElementById('Llevar7')
+    var Llevar8 = document.getElementById('Llevar8')
+
+    Llevar.innerText="What to bring?"
+    LlevarSub.innerText="To fully enjoy your experience in the Vicente Pérez Rosales National Park, we recommend that you bring the following:"
+    Llevar1.innerText="Comfortable and warm clothing for all seasons of the year."
+    Llevar2.innerText="Footwear suitable for trekking or hiking."
+    Llevar3.innerText="Waterproof jacket and sunscreen."
+    Llevar4.innerText="Reusable water bottle."
+    Llevar5.innerText="Hat or cap."
+    Llevar6.innerText="Mosquito repellent."
+    Llevar7.innerText="Photographic camera."
+    Llevar8.innerText="Cash."
+
+
+    var Permit = document.getElementById('Permit')
+    var Permitido = document.getElementById('Permitido')
+    var Permitido1 = document.getElementById('Permitido1')
+    var Permitido2 = document.getElementById('Permitido2')
+    var Permitido3 = document.getElementById('Permitido3')
+    var Permitido4 = document.getElementById('Permitido4')
+    var Permitido5 = document.getElementById('Permitido5')
+
+    Permit.innerText="What is allowed and prohibited?"
+    Permitido.innerText="Allowed"
+    Permitido1.innerText="Go hiking and trekking along the marked trails."
+    Permitido2.innerText="Kayak or canoe on the lakes."
+    Permitido3.innerText="Fishing in rivers and lakes (with permission)."
+    Permitido4.innerText="Observe the flora and fauna."
+    Permitido5.innerText="Camp in designated areas."
+
+    var NoPermitido = document.getElementById('NoPermitido')
+    var NoPermitido1 = document.getElementById('NoPermitido1')
+    var NoPermitido2 = document.getElementById('NoPermitido2')
+    var NoPermitido3 = document.getElementById('NoPermitido3')
+    var NoPermitido4 = document.getElementById('NoPermitido4')
+    var NoPermitido5 = document.getElementById('NoPermitido5')
+    var NoPermitido6 = document.getElementById('NoPermitido6')
+    var NoPermitido7 = document.getElementById('NoPermitido7')
+    var NoPermitido8 = document.getElementById('NoPermitido8')
+    var NoPermitido9 = document.getElementById('NoPermitido9')
+    var NoPermitido10 = document.getElementById('NoPermitido10')
+    var NoPermitido11 = document.getElementById('NoPermitido11')
+
+    NoPermitido.innerText="Not allowed"
+    NoPermitido1.innerText="Leave the marked trails."
+    NoPermitido2.innerText="Make campfires outside of designated areas."
+    NoPermitido3.innerText="Cause damage to the flora or fauna of the park."
+    NoPermitido4.innerText="Pollute water or soil."
+    NoPermitido5.innerText="Entering non-permitted areas with motorized vehicles."
+    NoPermitido6.innerText="Disturb wildlife."
+    NoPermitido7.innerText="Extract flora or fauna from the park."
+    NoPermitido8.innerText="Use drones without prior authorization."
+    NoPermitido9.innerText="Carry out noisy activities that may disturb the tranquility of the park."
+    NoPermitido10.innerText="Camping in non-designated areas."
+    NoPermitido11.innerText="Leaving trash in the park."
+
+    var Recuerda = document.getElementById('Recuerda')
+    var Recuerda1 = document.getElementById('Recuerda1')
+
+    Recuerda.innerText="Remember!"
+    Recuerda1.innerText="Your responsible behavior will help protect this valuable natural heritage for future generations."
+
+
+
+}

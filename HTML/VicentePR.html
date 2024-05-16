@@ -19,7 +19,7 @@
         </h1>
         <header class="HeaderI">
             <div>
-                <h1 style="text-align: center;" >Parque Nacional Vicente Pérez Rosales </h1>
+                <h1 style="text-align: center;" id="VicenteT" >Parque Nacional Vicente Pérez Rosales </h1>
                     <nav class="navbar navbar-expand-lg bg-light">
                       <div class="container-fluid">
                         <a class="navbar-brand" href="#">Menu</a>
@@ -39,8 +39,8 @@
                                   Idioma
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#"><img src="../IMG/Español.png"></a></li>
-                                  <li><a class="dropdown-item" href="#"><img src="../IMG/Ingles.png"></a></li>
+                                  <li><a class="dropdown-item" href="VicentePR.html"><img src="../IMG/Español.png"></a></li>
+                                  <li><a class="dropdown-item" onclick="InglesVicente()"><img src="../IMG/Ingles.png"></a></li>
                                   
                                 </ul>
                               </div>
@@ -56,7 +56,7 @@
         <section style="background-image: url('../IMG/parquevicente.jpg'); background-size: cover;" >
             <div class="CuadroTexto">
         <article>
-            <h3 class="Pumalin">
+            <h3 class="Pumalin" id="VicenteDesc">
                 ¿Deseas venir a ver uno de los parques mas espectaculares del sur?, de ser asi el Parque Nacional Vicente Pérez Rosales
         es una opción a tomar en cuenta, la mayoria de empresas solo ofrecen ir a recorrer los saltos del río Petrohue que si bien
         es uno de los puntos mas famosos del parque, esto no es todo lo que ofrece este maravilloso lugar, pues existen lugares como:
@@ -64,8 +64,8 @@
             </h3>
         </article>
         <article>
-            <h2 class="Pumalin">¿Te interesa?</h2>
-            <h3 class="Pumalin"><p>¡Aprovecha esta oportunidad única para visitar el Parque Nacional Vicente Pérez Rosales! Reserva tu aventura ahora.</p></h3>
+            <h2 class="Pumalin" id="VicenteSub">¿Te interesa?</h2>
+            <h3 class="Pumalin" id="VicenteSub2"><p>¡Aprovecha esta oportunidad única para visitar el Parque Nacional Vicente Pérez Rosales! Reserva tu aventura ahora.</p></h3>
             <a href="formulario_reserva.html" class="boton">Reserva ahora</a>
         </article>
     </div>
@@ -106,56 +106,56 @@
 
         <section>
             <div class="CuadroTexto">
-                <h1 style="color: black;"> Itinerario</h1>
+                <h1 style="color: black;" id="VicenteIti"> Itinerario</h1>
                 <table class="table" >
                     <thead class="table-dark" >
                       <tr >
-                        <th>Día</th>
-                        <th>Descripción</th>
-                        <th>Actividades</th>
+                        <th id="Dia">Día</th>
+                        <th id="Descripcion">Descripción</th>
+                        <th id="Actividades">Actividades</th>
                       </tr>
                     </thead>
                     <tbody>
                         <tr class="table-primary">
                           <td>1</td>
-                          <td>Llegada a Puerto Montt y traslado al parque</td>
+                          <td id="VicenteD1D">Llegada a Puerto Montt y traslado al parque</td>
                           <td><ul>
-                            <li>Recepción y traslado desde el aeropuerto de Puerto Montt o tu hotel en la ciudad hasta el Parque Nacional Pumalín Douglas Tompkins.</li>
-                            <li>Alojamiento en confortable cabaña o lodge dentro del parque.</li>
-                            <li>Cena de bienvenida en restaurante local.</li>
+                            <li id="VicenteD1A1">Recepción y traslado desde el aeropuerto de Puerto Montt o tu hotel en la ciudad hasta el Parque Nacional Pumalín Douglas Tompkins.</li>
+                            <li id="VicenteD1A2">Alojamiento en confortable cabaña o lodge dentro del parque.</li>
+                            <li id="VicenteD1A3">Cena de bienvenida en restaurante local.</li>
                         </ul></td>
                         </tr>  
                         <tr class="table-success">
                             <td>2</td>
-                          <td>Explorando el Lago Todos los Santos y Saltos del Petrohué</td>
+                          <td id="VicenteD2D">Explorando el Lago Todos los Santos y Saltos del Petrohué</td>
                           <td><ul>
-                            <li>Desayuno temprano en el lodge.</li>
-                            <li>Navegación por el Lago Todos los Santos, un espejo de agua rodeado de montañas y bosques milenarios.</li>
-                            <li>Visita a los Saltos del Petrohué, una serie de cascadas imponentes.</li>
-                            <li>Almuerzo en picnic junto al lago.</li>
-                            <li>Por la tarde, caminata por el sendero Los Alerces, un bosque centenario de alerces.</li>
-                            <li>Cena y alojamiento en el lodge.</li>
+                            <li id="VicenteD2A1">Desayuno temprano en el lodge.</li>
+                            <li id="VicenteD2A2">Navegación por el Lago Todos los Santos, un espejo de agua rodeado de montañas y bosques milenarios.</li>
+                            <li id="VicenteD2A3">Visita a los Saltos del Petrohué, una serie de cascadas imponentes.</li>
+                            <li id="VicenteD2A4">Almuerzo en picnic junto al lago.</li>
+                            <li id="VicenteD2A5">Por la tarde, caminata por el sendero Los Alerces, un bosque centenario de alerces.</li>
+                            <li id="VicenteD2A6">Cena y alojamiento en el lodge.</li>
                         </ul></td>
                         </tr>
                         <tr class="table-danger">
                             <td>3</td>
-                            <td>Trekking al Lago Frío y Termas de Cayutue</td>
+                            <td id="VicenteD3D">Trekking al Lago Frío y Termas de Cayutue</td>
                             <td><ul>
-                                <li>Desayuno temprano en el lodge.</li>
-                                <li>Excursión de trekking al Lago Frío, un lago glaciar de aguas cristalinas.</li>
-                                <li>Almuerzo en box lunch.</li>
-                                <li>Por la tarde, relájate en las Termas de Cayutue.</li>
-                                <li>Cena y alojamiento en el lodge.</li>
+                                <li id="VicenteD3A1">Desayuno temprano en el lodge.</li>
+                                <li id="VicenteD3A2">Excursión de trekking al Lago Frío, un lago glaciar de aguas cristalinas.</li>
+                                <li id="VicenteD3A3">Almuerzo en box lunch.</li>
+                                <li id="VicenteD3A4">Por la tarde, relájate en las Termas de Cayutue.</li>
+                                <li id="VicenteD3A5">Cena y alojamiento en el lodge.</li>
                           </ul></td>
                         </tr>
                         <tr class="table-info">
                             <td>4</td>
-                            <td>Despedida y traslado a Puerto Montt</td>
+                            <td id="VicenteD4D">Despedida y traslado a Puerto Montt</td>
                             <td><ul>
-                                <li>Desayuno en el lodge.</li>
-                                <li>Traslado de regreso a Puerto Montt.</li>
-                                <li>Tiempo libre para compras o actividades turísticas en la ciudad.</li>
-                                <li>Fin de nuestros servicios.</li>
+                                <li id="VicenteD4A1">Desayuno en el lodge.</li>
+                                <li id="VicenteD4A2">Traslado de regreso a Puerto Montt.</li>
+                                <li id="VicenteD4A3">Tiempo libre para compras o actividades turísticas en la ciudad.</li>
+                                <li id="VicenteD4A4">Fin de nuestros servicios.</li>
                           </ul></td>
 
                         </tr>
@@ -164,62 +164,62 @@
                 </table>   
                 
                 </ul>
-                <h2>Incluye</h2>
+                <h2 id="Incluye">Incluye</h2>
             <ul>
-                <li>Traslados desde y hacia el aeropuerto de Puerto Montt.</li>
-                <li>Alojamiento 3 noches en cabaña o lodge.</li>
-                <li>Alimentación completa (desayuno, almuerzo y cena).</li>
-                <li>Excursiones guiadas al Lago Todos los Santos, Saltos del Petrohué, Lago Frío y Termas de Cayutue.</li>
-                <li>Seguro de asistencia en viaje.</li>
+                <li id="Incluye1">Traslados desde y hacia el aeropuerto de Puerto Montt.</li>
+                <li id="Incluye2">Alojamiento 3 noches en cabaña o lodge.</li>
+                <li id="Incluye3">Alimentación completa (desayuno, almuerzo y cena).</li>
+                <li id="Incluye4">Excursiones guiadas al Lago Todos los Santos, Saltos del Petrohué, Lago Frío y Termas de Cayutue.</li>
+                <li id="Incluye5">Seguro de asistencia en viaje.</li>
             </ul>
 
-            <h2>No incluye</h2>
+            <h2 id="NoIncluye">No incluye</h2>
             <ul>
-                <li>Pasajes aéreos.</li>
-                <li>Bebidas alcohólicas.</li>
-                <li>Propinas.</li>
+                <li id="NoIncluye1">Pasajes aéreos.</li>
+                <li id="NoIncluye2">Bebidas alcohólicas.</li>
+                <li id="NoIncluye3">Propinas.</li>
             </ul>
-            <h2>¿Qué llevar?</h2>
-            <p>Para disfrutar al máximo de tu experiencia en el Parque Nacional Vicente Pérez Rosales, te recomendamos llevar lo siguiente:</p>
+            <h2 id="Llevar">¿Qué llevar?</h2>
+            <p id="LlevarSub">Para disfrutar al máximo de tu experiencia en el Parque Nacional Vicente Pérez Rosales, te recomendamos llevar lo siguiente:</p>
             <ul>
-                <li>Ropa cómoda y abrigada para todas las estaciones del año.</li>
-                <li>Calzado adecuado para trekking o senderismo.</li>
-                <li>Chaqueta impermeable y protector solar.</li>
-                <li>Botella de agua reutilizable.</li>
-                <li>Sombrero o gorra.</li>
-                <li>Repelente de mosquitos.</li>
-                <li>Cámara fotográfica.</li>
-                <li>Dinero en efectivo.</li>
+                <li id="Llevar1">Ropa cómoda y abrigada para todas las estaciones del año.</li>
+                <li id="Llevar2">Calzado adecuado para trekking o senderismo.</li>
+                <li id="Llevar3">Chaqueta impermeable y protector solar.</li>
+                <li id="Llevar4">Botella de agua reutilizable.</li>
+                <li id="Llevar5">Sombrero o gorra.</li>
+                <li id="Llevar6">Repelente de mosquitos.</li>
+                <li id="Llevar7">Cámara fotográfica.</li>
+                <li id="Llevar8">Dinero en efectivo.</li>
             </ul>
 
-            <h2>¿Qué está permitido y prohibido?</h2>
-            <h3>Permitido:</h3>
+            <h2 id="Permit">¿Qué está permitido y prohibido?</h2>
+            <h3 id="Permitido">Permitido:</h3>
             <ul>
-                <li>Realizar senderismo y trekking por los senderos señalizados.</li>
-                <li>Navegar en kayak o canoa por los lagos.</li>
-                <li>Pescar en los ríos y lagos (con permiso).
-                <li>Observar la flora y fauna.</li>
-                <li>Acampar en zonas designadas.</li>
+                <li id="Permitido1">Realizar senderismo y trekking por los senderos señalizados.</li>
+                <li id="Permitido2">Navegar en kayak o canoa por los lagos.</li>
+                <li id="Permitido3">Pescar en los ríos y lagos (con permiso).
+                <li id="Permitido4">Observar la flora y fauna.</li>
+                <li id="Permitido5">Acampar en zonas designadas.</li>
             </ul>
-            <h3>Prohibido:</h3>
+            <h3 id="NoPermitido">Prohibido:</h3>
 
         <ul>
-            <li>Salir de los senderos señalizados.</li>
-            <li>Hacer fogatas fuera de las áreas designadas.</li>
-            <li>Causar daño a la flora o fauna del parque.</li>
-            <li>Contaminar el agua o el suelo.</li>
-            <li>Ingresar con vehículos motorizados a zonas no permitidas.</li>
-            <li>Molestar a la fauna silvestre.</li>
-            <li>Extraer flora o fauna del parque.</li>
-            <li>Utilizar drones sin autorización previa.</li>
-            <li>Realizar actividades ruidosas que puedan perturbar la tranquilidad del parque.</li>
-            <li>Acampar en zonas no designadas.</li>
-            <li>Dejar basura en el parque.</li>
+            <li id="NoPermitido1">Salir de los senderos señalizados.</li>
+            <li id="NoPermitido2">Hacer fogatas fuera de las áreas designadas.</li>
+            <li id="NoPermitido3">Causar daño a la flora o fauna del parque.</li>
+            <li id="NoPermitido4">Contaminar el agua o el suelo.</li>
+            <li id="NoPermitido5">Ingresar con vehículos motorizados a zonas no permitidas.</li>
+            <li id="NoPermitido6">Molestar a la fauna silvestre.</li>
+            <li id="NoPermitido7">Extraer flora o fauna del parque.</li>
+            <li id="NoPermitido8">Utilizar drones sin autorización previa.</li>
+            <li id="NoPermitido9">Realizar actividades ruidosas que puedan perturbar la tranquilidad del parque.</li>
+            <li id="NoPermitido10">Acampar en zonas no designadas.</li>
+            <li id="NoPermitido11">Dejar basura en el parque.</li>
         </ul>
 
         <div>
-            <h3>¡Recuerda!</h3>
-            <p style="text-align: center;">Tu comportamiento responsable ayudará a proteger este valioso patrimonio natural para las generaciones futuras.</p>
+            <h3 id="Recuerda">¡Recuerda!</h3>
+            <p style="text-align: center;" id="Recuerda1">Tu comportamiento responsable ayudará a proteger este valioso patrimonio natural para las generaciones futuras.</p>
             </div>
             </div>
         </section>
