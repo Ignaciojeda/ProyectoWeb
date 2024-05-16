@@ -238,7 +238,6 @@ function InglesPuyehue(){
     PuyehueD2A4.innerText="A relaxing time in the Aguas Calientes Hot Springs."
     PuyehueD2A5.innerText="Dinner and accommodation at the lodge."
 
-
     var PuyehueD3D=document.getElementById('PuyehueD3D')
     var PuyehueD3A1=document.getElementById('PuyehueD3A1')
     var PuyehueD3A2=document.getElementById('PuyehueD3A2')
@@ -261,12 +260,15 @@ function InglesPuyehue(){
     var PuyehueD4A3=document.getElementById('PuyehueD4A3')
     var PuyehueD4A4=document.getElementById('PuyehueD4A4')
 
+   
+  
 
     PuyehueD4D.innerText="Farewell and transfer to Puerto Montt"
     PuyehueD4A1.innerText="Breakfast at the lodge."
     PuyehueD4A2.innerText="Transfer back to Puerto Montt."
     PuyehueD4A3.innerText="Free time for shopping or tourist activities in the city."
     PuyehueD4A4.innerText="End of our services."
+
 
     var pIncluye=document.getElementById('pIncluye')
     var pIncluye1=document.getElementById('pIncluye1')
@@ -282,17 +284,17 @@ function InglesPuyehue(){
     pIncluye4.innerText="Guided excursions to Lake Puyehue and Hot Springs of Aguas Calientes."
     pIncluye5.innerText="Travel assistance insurance."
 
-    var NoIncluye=document.getElementById('pNoIncluye')
-    var NoIncluye1=document.getElementById('pNoIncluye1')
-    var NoIncluye2=document.getElementById('pNoIncluye2')
-    var NoIncluye3=document.getElementById('pNoIncluye3')
-    var NoIncluye4=document.getElementById('pNoIncluye4')
+    var pNoIncluye=document.getElementById('pNoIncluye')
+    var pNoIncluye1=document.getElementById('pNoIncluye1')
+    var pNoIncluye2=document.getElementById('pNoIncluye2')
+    var pNoIncluye3=document.getElementById('pNoIncluye3')
+    var pNoIncluye4=document.getElementById('pNoIncluye4')
 
-    NoIncluye.innerText="Not Include"
-    NoIncluye1.innerText="Airfare."
-    NoIncluye2.innerText="Ascent to Osorno Volcano (optional)."
-    NoIncluye3.innerText="Alcoholic beverages."
-    NoIncluye4.innerText="Tips."
+    pNoIncluye.innerText="Not Include"
+    pNoIncluye1.innerText="Airfare."
+    pNoIncluye2.innerText="Ascent to Osorno Volcano (optional)."
+    pNoIncluye3.innerText="Alcoholic beverages."
+    pNoIncluye4.innerText="Tips."
 
     var Importante=document.getElementById('pImportante')
     var ImportanteSub=document.getElementById('pImportanteSub')
@@ -302,7 +304,6 @@ function InglesPuyehue(){
     var Importante3=document.getElementById('pImportante3')
     var Importante4=document.getElementById('pImportante4')
     
-
     Importante.innerText="Important"
     ImportanteSub.innerText="To preserve the ecosystem of the Puyehue National Park, we request you to not bring."
     Importante1.innerText="Pets"
@@ -327,25 +328,6 @@ function InglesPuyehue(){
 
     Recuerda.innerText="Remember!"
     Recuerda1.innerText="Your responsible behavior will help protect this valuable natural heritage for future generations."
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
 
 
 
