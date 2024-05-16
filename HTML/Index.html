@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="../CSS/Style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="../JS/Java.JS"></script>
 </head>
 </head>
 <header class="HeaderI">
     <div>
-        <h1 style="text-align: center;" >Encuentro Verde </h1>
-        <center>Somos una pagina dedicada a la promocion y turismo sobre parques nacionales de Chile</center>
+        <h1 style="text-align: center;"  >Encuentro Verde </h1>
+        <h6 id="Descripcion"><center>Somos una pagina dedicada a la promocion y turismo sobre parques nacionales de Chile</center></h6>
             <nav class="navbar navbar-expand-lg bg-light">
               <div class="container-fluid">
                 <a class="navbar-brand" href="#">Menu</a>
@@ -30,6 +31,16 @@
                     <li class="nav-item">
                       <a class="nav-link" href="Contacto.html">Contactenos</a>
                     </li>
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Idioma
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="Index.html"><img src="../IMG/Español.png"></a></li>
+                        <li><a class="dropdown-item" onclick="InglesIndex()" ><img src="../IMG/Ingles.png" ></a></li>
+                        
+                      </ul>
+                    </div>
                   </ul>
 
                 </div>
@@ -46,8 +57,8 @@
         <div class="card" style="width: 18rem; margin-right: 30px; ">
             <img class="card-img-top" src="../IMG/puyehue.jpg" alt="Parque Puyehue">
             <div class="card-body">
-              <h5 class="card-title">Parque Nacional Puyehue</h5>
-              <p class="card-text">
+              <h5 class="card-title" id="Puyehue">Parque Nacional Puyehue</h5>
+              <p class="card-text" id="PuyehueD">
                 Puedes visitar todo el parque y conocer los lugares como:
                  "Salto del pudu", el "Volcán Casablanca" y muchos lugares mas dentro del parque
               </p>
@@ -57,8 +68,8 @@
           <div class="card" style="width: 18rem; margin-left: 30px;">
             <img class="card-img-top" src="../IMG/PNVicente.jpg" alt="Vicente perez Rosales">
             <div class="card-body">
-              <h5 class="card-title">Parque Nacional Vicente Perez Rosales</h5>
-              <p class="card-text">
+              <h5 class="card-title" id="Vicente">Parque Nacional Vicente Perez Rosales</h5>
+              <p class="card-text" id="VicenteD">
                  Puedes visitar todo el parque y conocer los lugares como:
                  "los Enamorados", la "Laguna Verde" y muchos lugares mas</p>
               <a href="VicentePR.html" class="btn btn-primary">Ver parque</a>
