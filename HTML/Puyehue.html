@@ -19,7 +19,7 @@
         </h1>
         <header class="HeaderI">
             <div>
-                <h1 style="text-align: center;" id="Puyehue" >Parque Nacional Puyehue</h1>
+                <h1 style="text-align: center;" id="PuyehueT" >Parque Nacional Puyehue</h1>
                     <nav class="navbar navbar-expand-lg bg-light">
                       <div class="container-fluid">
                         <a class="navbar-brand" href="#">Menu</a>
@@ -39,8 +39,8 @@
                                   Idioma
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" ><img src="../IMG/Español.png"></a></li>
-                                  <li><a class="dropdown-item" ><img src="../IMG/Ingles.png"></a></li>
+                                  <li><a class="dropdown-item" href="Puyehue.html" ><img src="../IMG/Español.png"></a></li>
+                                  <li><a class="dropdown-item" onclick="InglesPuyehue()" ><img src="../IMG/Ingles.png"></a></li>
                                   
                                 </ul>
                               </div>
@@ -57,7 +57,7 @@
         <section style="background-image: url('../IMG/puyehue.jpg');background-size: cover;">
             <div class="CuadroTexto">
         <article >
-            <h3 class="Pumalin">
+            <h3 class="Pumalin" id="PuyehueDesc">
                 ¿Estás listo para explorar uno de los tesoros naturales más impresionantes del sur? El Parque Nacional Puyehue te espera con sus paisajes de ensueño y su rica biodiversidad.
                 No te pierdas la oportunidad de maravillarte con la imponente Cascada Truful Truful y explorar los misteriosos Bosques de Coigües, hogar de una gran variedad de flora y fauna única en la región.    
             
@@ -65,8 +65,8 @@
         </article>
         <article >
         <article >
-            <h2 class="Pumalin" >Ven y descubre la magia. ¡Una aventura te espera en cada sendero!</h2>
-            <h3 class="Pumalin"><p>¡Aprovecha esta oportunidad única para visitar el Parque Nacional Puyehue! Reserva tu aventura ahora.</p></h3>
+            <h2 class="Pumalin" id="PuyehueSub" >Ven y descubre la magia. ¡Una aventura te espera en cada sendero!</h2>
+            <h3 class="Pumalin" id="PuyehueSub2"><p>¡Aprovecha esta oportunidad única para visitar el Parque Nacional Puyehue! Reserva tu aventura ahora.</p></h3>
             <a href="formulario_reserva.html" class="boton">Reserva ahora</a>
         </article>
     </div>
@@ -108,95 +108,95 @@
         </section>
         <section>
             <div class="CuadroTexto">
-                <h1 style="color: black;"> Itinerario</h1>
+                <h1 style="color: black;" id="PuyehueIti"> Itinerario</h1>
                 <table class="table" cellspacing="10" width="100%">
                     <thead class="table-dark" width="50%">
                       <tr >
-                        <th>Día</th>
-                        <th>Descripción</th>
-                        <th>Actividades</th>
+                        <th id="Dia">Día</th>
+                        <th id="Descripcion">Descripción</th>
+                        <th id="Actividades">Actividades</th>
                       </tr>
                     </thead>
                     <tbody>
                         <tr class="table-primary">
                           <td>1</td>
-                          <td>Llegada a Puerto Montt y traslado al parque</td>
+                          <td id="PuyehueD1D">Llegada a Puerto Montt y traslado al parque</td>
                           <td><ul>
-                            <li>Los esperaremos en el furgon que se ubicara a escasos metros del terminal de buses</li>
-                            <li>Alojamiento en confortable cabaña o lodge dentro del parque.</li>
-                            <li>Cena de bienvenida en restaurante local.</li>
+                            <li id="PuyehueD1A1">Los esperaremos en el furgon que se ubicara a escasos metros del terminal de buses</li>
+                            <li id="PuyehueD1A2">Alojamiento en confortable cabaña o lodge dentro del parque.</li>
+                            <li id="PuyehueD1A3">Cena de bienvenida en restaurante local.</li>
                         </ul></td>
                         </tr>  
                         <tr class="table-success">
                             <td>2</td>
-                          <td>Senderismo al Lago Puyehue y Termas de Aguas Calientes</td>
+                          <td id="PuyehueD2D">Senderismo al Lago Puyehue y Termas de Aguas Calientes</td>
                           <td><ul>
-                            <li>Desayuno temprano en el lodge.</li>
-                            <li>Excursión guiada a traves de todas las maravillas del parque nacional</li>
-                            <li>Almuerzo en picnic junto al lago.</li>
-                            <li>Relajación en las Termas de Aguas Calientes.</li>
-                            <li>Cena y alojamiento en el lodge.</li>
+                            <li id="PuyehueD2A1">Desayuno temprano en el lodge.</li>
+                            <li id="PuyehueD2A2">Excursión guiada a traves de todas las maravillas del parque nacional</li>
+                            <li id="PuyehueD2A3">Almuerzo en picnic junto al lago.</li>
+                            <li id="PuyehueD2A4">Relajación en las Termas de Aguas Calientes.</li>
+                            <li id="PuyehueD2A5">Cena y alojamiento en el lodge.</li>
                         </ul></td>
                         </tr>
                         <tr class="table-danger">
                             <td>3</td>
-                            <td>Ascenso al Volcán Osorno (opcional)</td>
+                            <td id="PuyehueD3D">Ascenso al Volcán Osorno (opcional)</td>
                             <td><ul>
-                                <li>Desayuno temprano en el lodge.</li>
-                                <li>Opcional: Ascenso al Volcán Osorno.</li>
-                                <li>Alternativa: Caminata por el sendero Alerce Andino o visita al Centro de Interpretación Ambiental.</li>
-                                <li>Almuerzo en box lunch.</li>
-                                <li>Regreso al lodge por la tarde.</li>
-                                <li>Cena de despedida y alojamiento en el lodge.</li>
+                                <li id="PuyehueD3A1">Desayuno temprano en el lodge.</li>
+                                <li id="PuyehueD3A2">Opcional: Ascenso al Volcán Osorno.</li>
+                                <li id="PuyehueD3A3">Alternativa: Caminata por el sendero Alerce Andino o visita al Centro de Interpretación Ambiental.</li>
+                                <li id="PuyehueD3A4">Almuerzo en box lunch.</li>
+                                <li id="PuyehueD3A5">Regreso al lodge por la tarde.</li>
+                                <li id="PuyehueD3A6">Cena de despedida y alojamiento en el lodge.</li>
                           </ul></td>
                         </tr>
                         <tr class="table-info">
                             <td>4</td>
-                            <td>Despedida y traslado a Puerto Montt</td>
+                            <td id="PuyehueD4D">Despedida y traslado a Puerto Montt</td>
                             <td><ul>
-                                <li>Desayuno en el lodge.</li>
-                                <li>Traslado de regreso a Puerto Montt.</li>
-                                <li>Tiempo libre para compras o actividades turísticas en la ciudad.</li>
-                                <li>Fin de nuestros servicios.</li>
+                                <li id="PuyehueD4A1">Desayuno en el lodge.</li>
+                                <li id="PuyehueD4A2">Traslado de regreso a Puerto Montt.</li>
+                                <li id="PuyehueD4A3">Tiempo libre para compras o actividades turísticas en la ciudad.</li>
+                                <li id="PuyehueD4A1">Fin de nuestros servicios.</li>
                           </ul></td>
 
                         </tr>
                         
                     </tbody>
                 </table>   
-                <h2>Incluye</h2>
+                <h2 id="pIncluye">Incluye</h2>
                 <ul>
-                    <li>Traslados desde y hacia el aeropuerto de Puerto Montt.</li>
-                    <li>Alojamiento 3 noches en cabaña o lodge.</li>
-                    <li>Alimentación completa (desayuno, almuerzo y cena).</li>
-                    <li>Excursiones guiadas al Lago Puyehue y Termas de Aguas Calientes.</li>
-                    <li>Seguro de asistencia en viaje.</li>
+                    <li id="pIncluye1">Traslados desde y hacia el aeropuerto de Puerto Montt.</li>
+                    <li id="pIncluye2">Alojamiento 3 noches en cabaña o lodge.</li>
+                    <li id="pIncluye3">Alimentación completa (desayuno, almuerzo y cena).</li>
+                    <li id="pIncluye4">Excursiones guiadas al Lago Puyehue y Termas de Aguas Calientes.</li>
+                    <li id="pIncluye5">Seguro de asistencia en viaje.</li>
                 </ul>
-                <h2>No incluye</h2>
+                <h2 id="pNoIncluye">No incluye</h2>
                 <ul>
-                    <li>Pasajes aéreos.</li>
-                    <li>Ascenso al Volcán Osorno (opcional).</li>
-                    <li>Bebidas alcohólicas.</li>
-                    <li>Propinas.</li>
+                    <li id="pNoIncluye1">Pasajes aéreos.</li>
+                    <li id="pNoIncluye2">Ascenso al Volcán Osorno (opcional).</li>
+                    <li id="pNoIncluye3">Bebidas alcohólicas.</li>
+                    <li id="pNoIncluye4">Propinas.</li>
                 </ul>
-                <h2>Importante</h2>
-                <p>Para preservar el ecosistema del Parque Nacional Puyehue, te solicitamos no llevar:</p>
+                <h2 id="pImportante">Importante</h2>
+                <p id="pImportanteSub">Para preservar el ecosistema del Parque Nacional Puyehue, te solicitamos no llevar:</p>
                 <ul>
-                    <li>Mascotas.</li>
-                    <li>Fuegos artificiales.</li>
-                    <li>Plásticos de un solo uso.</li>
-                    <li>Especie exóticas de plantas o animales.</li>
+                    <li id="pImportante1">Mascotas.</li>
+                    <li id="pImportante2">Fuegos artificiales.</li>
+                    <li id="pImportante3">Plásticos de un solo uso.</li>
+                    <li id="pImportante4">Especie exóticas de plantas o animales.</li>
                 </p>
-                <p>También está prohibido:</p>
+                <p id="pProhibido">También está prohibido:</p>
                 <ul>
-                    <li>Hacer fogatas fuera de las áreas designadas.</li>
-                    <li>Dañar la flora o fauna del parque.</li>
-                    <li>Contaminar el agua o el suelo.</li>
-                    <li>Ingresar con vehículos motorizados a zonas no permitidas.</li>
+                    <li id="pProhibido1">Hacer fogatas fuera de las áreas designadas.</li>
+                    <li id="pProhibido2">Dañar la flora o fauna del parque.</li>
+                    <li id="pProhibido3">Contaminar el agua o el suelo.</li>
+                    <li id="pProhibido4">Ingresar con vehículos motorizados a zonas no permitidas.</li>
                 </p>
                 <div>
-                    <h3>¡Recuerda!</h3>
-                    <p style="text-align: center;">Tu comportamiento responsable ayudará a proteger este valioso patrimonio natural para las generaciones futuras.</p>
+                    <h3 id="pRecuerda">¡Recuerda!</h3>
+                    <p style="text-align: center;" id="pRecuerda1">Tu comportamiento responsable ayudará a proteger este valioso patrimonio natural para las generaciones futuras.</p>
                     </div>
 
             </div>

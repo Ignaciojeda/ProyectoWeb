@@ -119,9 +119,9 @@ function InglesPumalin(){
     NoIncluye.innerText="What is not included?"
     NoIncluye1.innerText="Air tickets: Round-trip flights to Puerto Montt are not included in the package price. You can book your flights with the airline of your choice."
     NoIncluye2.innerText="Alcoholic beverages: Alcoholic beverages are not included in meals or picnics. You can buy them at the lodge bar or at the local restaurant."
-    NoIncluye3.innerText="Tips: Tips for guides and lodge staff are not included in the package price. It is recommended to tip 10% to 15% of the total value of the package as a token of appreciation for their service."
+    NoIncluye3.innerText="Tips."
     NoIncluye4.innerText="Personal expenses: Personal expenses such as souvenirs, telephone calls, laundry, etc., are not included in the package price."
-    NoIncluye5.innerText="Seguro de viaje: Se recomienda contratar un seguro de viaje que cubra gastos médicos, cancelación de vuelos y pérdida de equipaje."
+    NoIncluye5.innerText="Travel insurance: It is recommended to take out travel insurance that covers medical expenses, flight cancellation and lost luggage."
     
     var Importante=document.getElementById("Importante")
     var Importante1=document.getElementById("Importante1")
@@ -131,9 +131,9 @@ function InglesPumalin(){
 
     Importante.innerText="Important"
     Importante1.innerText="The trip itinerary may be subject to change due to weather conditions, transportation availability or for other unforeseen reasons."
-    Importante2.innerText="It is important to wear clothing and footwear appropriate for the weather and the activities to be carried out."
+    Importante2.innerText="It is important to wear clothes and footwear appropriate for the weather and the activities to be carried out."
     Importante3.innerText="It is recommended to bring sunscreen, mosquito repellent, a hat and sunglasses."
-    Importante4.innerText="It is important to respect the rules of the national park and help protect the environment."
+    Importante4.innerText="It is important to respect the rules of the national park and  protect the environment."
 
 
    var QuePermi=document.getElementById('QuePermi')
@@ -152,13 +152,13 @@ function InglesPumalin(){
 
    Permitido.innerText="Allowed"
    Permitido1.innerText="Go hiking and trekking along the marked trails."
-   Permitido2.innerText="Kayak or canoe through the fjords and lakes (with permission)."
-   Permitido3.innerText="Fishing in rivers and lakes (with permission)."
+   Permitido2.innerText="Kayak or canoe through the fjords and lakes (with a permit)."
+   Permitido3.innerText="Fishing in rivers and lakes (with a permit)."
    Permitido4.innerText="Observe the flora and fauna."
    Permitido5.innerText="Camp in designated areas."
    Permitido6.innerText="Bring enough food and drink for the excursions."
    Permitido7.innerText="Use sunscreen and mosquito repellent."
-   Permitido8.innerText="Wear clothing and footwear appropriate for the weather and the activity to be carried out."
+   Permitido8.innerText="Appropriate clothing and footwear for the weather and the activities to be carried out."
 
    var Prohibido=document.getElementById('Prohibido')
    var Prohibido1=document.getElementById('Prohibido1')
@@ -173,7 +173,7 @@ function InglesPumalin(){
    var Prohibido10=document.getElementById('Prohibido10')
    var Prohibido11=document.getElementById('Prohibido11')
 
-   Prohibido.innerText="Forbidden"
+   Prohibido.innerText="Not allowed"
    Prohibido1.innerText="Leave the marked trails."
    Prohibido2.innerText="Make campfires outside of designated areas."
    Prohibido3.innerText="Cause damage to the flora or fauna of the park."
@@ -191,5 +191,162 @@ function InglesPumalin(){
 
    Recuerda.innerText="Remember!"
    Recuerda1.innerText="Your responsible behavior will help protect this valuable natural heritage for future generations."
+
+}
+
+function InglesPuyehue(){
+
+    var PuyehueT = document.getElementById('PuyehueT')
+    var PuyehueDesc= document.getElementById('PuyehueDesc')
+    var PuyehueSub= document.getElementById('PuyehueSub')
+    var PuyehueSub2= document.getElementById('PuyehueSub2')
+    var PuyehueIti= document.getElementById('PuyehueIti')
+    var Dia= document.getElementById('Dia')
+    var Descripcion=document.getElementById('Descripcion')
+    var Actividades= document.getElementById('Actividades')
+
+    PuyehueT.innerText="Puyehue National Park"
+    PuyehueDesc.innerText="Are you ready to explore one of the South's most impressive natural treasures? The Puyehue National Park awaits you with its dream landscapes and rich biodiversity. Don't miss the opportunity to marvel at the imposing Truful Truful Waterfall and explore the mysterious Coigües Forests, home to a wide variety of flora and fauna unique to the region."
+    PuyehueSub.innerText="Come and discover the magic. An adventure awaits you on every trail!"
+    PuyehueSub2.innerText="Take advantage of this unique opportunity to visit Puyehue National Park! Book your adventure now."
+    PuyehueIti.innerText="Schedule"
+    Dia.innerText="Day"
+    Descripcion.innerText="Description"
+    Actividades.innerText="Activities"
+
+    var PuyehueD1D=document.getElementById('PuyehueD1D')
+    var PuyehueD1A1=document.getElementById('PuyehueD1A1')
+    var PuyehueD1A2=document.getElementById('PuyehueD1A2')
+    var PuyehueD1A3=document.getElementById('PuyehueD1A3')
+
+    PuyehueD1D.innerText="Arrival in Puerto Montt and transfer to the park."
+    PuyehueD1A1.innerText="We are waiting for you in the van that is located a few meters from the bus terminal."
+    PuyehueD1A2.innerText="Accommodation in a comfortable cabin or lodge within the park."
+    PuyehueD1A3.innerText="Welcome dinner at a local restaurant."
+
+    var PuyehueD2D=document.getElementById('PuyehueD2D')
+    var PuyehueD2A1=document.getElementById('PuyehueD2A1')
+    var PuyehueD2A2=document.getElementById('PuyehueD2A2')
+    var PuyehueD2A3=document.getElementById('PuyehueD2A3')
+    var PuyehueD2A4=document.getElementById('PuyehueD2A4')
+    var PuyehueD2A5=document.getElementById('PuyehueD2A5')
+
+    PuyehueD2D.innerText="Hiking to Lake Puyehue and Aguas Calientes Hot Springs"
+    PuyehueD2A1.innerText="Breakfast at the lodge."
+    PuyehueD2A2.innerText="Hiking to Lake Puyehue and Aguas Calientes Hot Springs"
+    PuyehueD2A3.innerText="Picnic lunch by the lake."
+    PuyehueD2A4.innerText="A relaxing time in the Aguas Calientes Hot Springs."
+    PuyehueD2A5.innerText="Dinner and accommodation at the lodge."
+
+
+    var PuyehueD3D=document.getElementById('PuyehueD3D')
+    var PuyehueD3A1=document.getElementById('PuyehueD3A1')
+    var PuyehueD3A2=document.getElementById('PuyehueD3A2')
+    var PuyehueD3A3=document.getElementById('PuyehueD3A3')
+    var PuyehueD3A4=document.getElementById('PuyehueD3A4')
+    var PuyehueD3A5=document.getElementById('PuyehueD3A5')
+    var PuyehueD3A6=document.getElementById('PuyehueD3A6')
+
+    PuyehueD3D.innerText="Ascent to Osorno Volcano (optional)"
+    PuyehueD3A1.innerText="Early breakfast at the lodge."
+    PuyehueD3A2.innerText="Optional: Ascent to the Osorno Volcano."
+    PuyehueD3A3.innerText="Alternative: Walk along the Alerce Andino trail or visit the Environmental Interpretation Center."
+    PuyehueD3A4.innerText="Lunch in lunch box."
+    PuyehueD3A5.innerText="Return to the lodge in the afternoon."
+    PuyehueD3A6.innerText="Farewell dinner and accommodation at the lodge."
+
+    var PuyehueD4D=document.getElementById('PuyehueD4D')
+    var PuyehueD4A1=document.getElementById('PuyehueD4A1')
+    var PuyehueD4A2=document.getElementById('PuyehueD4A2')
+    var PuyehueD4A3=document.getElementById('PuyehueD4A3')
+    var PuyehueD4A4=document.getElementById('PuyehueD4A4')
+
+
+    PuyehueD4D.innerText="Farewell and transfer to Puerto Montt"
+    PuyehueD4A1.innerText="Breakfast at the lodge."
+    PuyehueD4A2.innerText="Transfer back to Puerto Montt."
+    PuyehueD4A3.innerText="Free time for shopping or tourist activities in the city."
+    PuyehueD4A4.innerText="End of our services."
+
+    var pIncluye=document.getElementById('pIncluye')
+    var pIncluye1=document.getElementById('pIncluye1')
+    var pIncluye2=document.getElementById('pIncluye2')
+    var pIncluye3=document.getElementById('pIncluye3')
+    var pIncluye4=document.getElementById('pIncluye4')
+    var pIncluye5=document.getElementById('pIncluye5')
+
+    pIncluye.innerText="Include"
+    pIncluye1.innerText="Transfers to and from Puerto Montt airport."
+    pIncluye2.innerText="Accommodation for 3 nights in a cabin or lodge."
+    pIncluye3.innerText="Alimentación completa (desayuno, almuerzo y cena)."
+    pIncluye4.innerText="Guided excursions to Lake Puyehue and Hot Springs of Aguas Calientes."
+    pIncluye5.innerText="Travel assistance insurance."
+
+    var NoIncluye=document.getElementById('pNoIncluye')
+    var NoIncluye1=document.getElementById('pNoIncluye1')
+    var NoIncluye2=document.getElementById('pNoIncluye2')
+    var NoIncluye3=document.getElementById('pNoIncluye3')
+    var NoIncluye4=document.getElementById('pNoIncluye4')
+
+    NoIncluye.innerText="Not Include"
+    NoIncluye1.innerText="Airfare."
+    NoIncluye2.innerText="Ascent to Osorno Volcano (optional)."
+    NoIncluye3.innerText="Alcoholic beverages."
+    NoIncluye4.innerText="Tips."
+
+    var Importante=document.getElementById('pImportante')
+    var ImportanteSub=document.getElementById('pImportanteSub')
+
+    var Importante1=document.getElementById('pImportante1')
+    var Importante2=document.getElementById('pImportante2')
+    var Importante3=document.getElementById('pImportante3')
+    var Importante4=document.getElementById('pImportante4')
+    
+
+    Importante.innerText="Important"
+    ImportanteSub.innerText="To preserve the ecosystem of the Puyehue National Park, we request you to not bring."
+    Importante1.innerText="Pets"
+    Importante2.innerText="Fireworks"
+    Importante3.innerText="Single-use plastics."
+    Importante4.innerText="Exotic species of plants or animals."
+
+    var Prohibido=document.getElementById('pProhibido')
+    var Prohibido1=document.getElementById('pProhibido1')
+    var Prohibido2=document.getElementById('pProhibido2')
+    var Prohibido3=document.getElementById('pProhibido3')
+    var Prohibido4=document.getElementById('pProhibido4')
+
+    Prohibido.innerText="It is not allowed either"
+    Prohibido1.innerText="Make campfires outside of designated areas."
+    Prohibido2.innerText="Damage the flora or fauna of the park."
+    Prohibido3.innerText="Pollute water or soil."
+    Prohibido4.innerText="Entering non-permitted areas with motorized vehicles."
+
+    var Recuerda=document.getElementById('pRecuerda')
+    var Recuerda1=document.getElementById('pRecuerda1')
+
+    Recuerda.innerText="Remember!"
+    Recuerda1.innerText="Your responsible behavior will help protect this valuable natural heritage for future generations."
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 }
