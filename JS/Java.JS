@@ -1,52 +1,59 @@
-function validacion(){
-    
-    var error=[];
-    var confirmacion=0
-    
-    var nombre = document.getElementById('nombreUsuario').value
-    if (nombre ==''){
-        error.push('Nombre')
-        confirmacion=1  
-        
-
-    }   
-    
-    var apellido = document.getElementById('appaterno').value
-    if (apellido ==''){
-        error.push('Apellido')
-        confirmacion=1
-        
-    }
-    
-    var correo = document.getElementById('correoUsuario').value
-    if (correo ==''){
-        error.push('Correo')
-        confirmacion=1
-        
-    }
 
 
-    var nro = document.getElementById('nroTelefono').value
-    if (nro ==''){
-        error.push('Número de teléfono')
-        confirmacion=1
-        
-    }
 
-    var nro = document.getElementById('mensaje').value
-    if (nro ==''){
-        error.push('Mensaje')
-        confirmacion=1
-        
-    }
 
-    if (confirmacion==1){
-        
-        alert("Es necesario que rellene los siguentes campos: "+error.join(', '))
-    }else{
-        alert("Mensaje enviado correctamente")
-    }
-}
+$(document).ready(function() {
+    $('#myForm').on('submit', function(event) {
+      // Prevenir el envío del formulario
+      event.preventDefault();
+      
+      // Limpiar mensajes de error previos
+      $('.error').remove();
+      
+      let isValid = true;
+
+      // Validar el campo nombre
+      const nombreUsuario = $('#nombreUsuario').val().trim();
+      if (nombreUsuario === '') {
+        $('#nombreUsuario').after('<span class="error">Este campo es obligatorio</span>');
+        isValid = false;
+      }
+
+      // Validar el campo apellido
+      const appaterno = $('#appaterno').val().trim();
+      if (appaterno === '') {
+        $('#appaterno').after('<span class="error">Este campo es obligatorio</span>');
+        isValid = false;
+      }
+
+      // Validar el campo teléfono
+      const nroTelefono = $('#nroTelefono').val().trim();
+      if (nroTelefono === '') {
+        $('#nroTelefono').after('<span class="error">Este campo es obligatorio</span>');
+        isValid = false;
+      }
+
+      // Validar el campo correo
+      const correoUsuario = $('#correoUsuario').val().trim();
+      if (correoUsuario === '') {
+        $('#correoUsuario').after('<span class="error">Este campo es obligatorio</span>');
+        isValid = false;
+      }
+
+      // Validar el campo mensaje
+      const mensaje = $('#mensaje').val().trim();
+      if (mensaje === '') {
+        $('#mensaje').after('<span class="error">Este campo es obligatorio</span>');
+        isValid = false;
+      }
+
+      // Si todos los campos son válidos, se puede enviar el formulario
+      if (isValid) {
+        this.submit();
+
+      }
+    });
+  });
 
 
 function InglesIndex(){
