@@ -66,9 +66,29 @@
         <article>
             <h2 class="Pumalin" id="VicenteSub">¿Te interesa?</h2>
             <h3 class="Pumalin" id="VicenteSub2"><p>¡Aprovecha esta oportunidad única para visitar el Parque Nacional Vicente Pérez Rosales! Reserva tu aventura ahora.</p></h3>
-            <a href="formulario_reserva.html" class="boton">Reserva ahora</a>
-        </article>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                ¡Reservar ahora!
+              </button>       
+        </article>         
     </div>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Alerta</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              No hay reservas disponibles :(
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
         <section id="galeria">
             <h2 ></h2>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -95,11 +115,11 @@
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only"></span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only"></span>
                 </a>
             </div>
         </section>
