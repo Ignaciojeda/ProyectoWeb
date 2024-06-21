@@ -1,3 +1,43 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("extendedRegisterForm");
+  const successMessage = document.getElementById("successMessage");
+  const conditionYes = document.getElementById("condition-yes");
+  const conditionNo = document.getElementById("condition-no");
+  const conditionDetails = document.getElementById("condition-details");
+
+  conditionYes.addEventListener("change", function () {
+      conditionDetails.style.display = "block";
+  });
+
+  conditionNo.addEventListener("change", function () {
+      conditionDetails.style.display = "none";
+  });
+
+  form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      if (form.checkValidity()) {
+          successMessage.style.display = "block";
+          form.reset();
+          conditionDetails.style.display = "none";
+      }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("registerForm");
+  const successMessage = document.getElementById("successMessage");
+
+  form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      if (form.checkValidity()) {
+          successMessage.style.display = "block";
+          form.reset();
+      }
+  });
+});
 
 function iniciarMap(){
   var coord = {lat:-41.47005515381614 ,lng: -72.92399093373479};
